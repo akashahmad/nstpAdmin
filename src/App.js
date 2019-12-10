@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Sidenav from '../src/Components/SideNav/Sidenav'
+
+import Home from './Container/Homepage/Homepage'
 function App() {
   return (
     <div className="App">
-      <Sidenav/>
+      <Home/>
+      {/* <Section1/> */}
     </div>
   );
 }
