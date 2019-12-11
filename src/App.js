@@ -11,7 +11,7 @@ export default()=>{
     <>
     <BrowserRouter>
         <Switch>
-          <Route path={"/"} component={Home} />
+          <Route path={"/home"} component={Home} />
           <Route path={"/login"} component={LOGIN}/>
         </Switch>
     </BrowserRouter>
