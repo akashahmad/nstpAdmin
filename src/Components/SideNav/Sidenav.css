@@ -1,0 +1,339 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background: #fafafa; */
+   
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: black;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.navbar-top{
+    margin-top: 2%;
+}
+.navbar {
+    padding: 0px 10px;
+    /* background: #fff; */
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    color:white;
+    /* box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    display: flex;
+}
+.wrapper {
+    display: flex;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.line2 {
+    width: 77%;
+    height: 0px;
+    background-color: white;
+}
+#sidebar {
+   
+    min-width: 300px;
+    max-width: 300px;
+    /* background: #292a2e; */
+    color: black;
+    transition: all 0.3s;
+}
+.logo{
+    margin-top: 5%;
+    color: #2094cf;
+}
+.download1 {
+    border: 2px solid #ffc02b;
+    background-color: #ffc02b;
+    padding-left: 17px;
+    padding-right: 17px;
+    /* padding: 7px; */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    /* background: #292a2e; */
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    /* border-bottom: 1px solid #292a2e; */
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #9fa0a2;
+   
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    /* background: #292a2e; */
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    background-color: #2094cf;
+    /* padding: 20px; */
+    min-height: 50vh;
+    transition: all 0.3s;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+.column {
+    float: left;
+    width: 22%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;
+  display:flex;
+  justify-content:space-around;
+  color: #d0e2ee;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+   
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    /* border-top-left-radius: 13px;
+    border-top-right-radius: 13px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:0px;
+    text-align: center;
+    background-color:#2094cf ;
+    border:1px solid white;
+    min-height: 25vh;
+    max-height: 40vh;
+    border-radius: 10PX;
+  }
+ 
+.card-heading{
+   margin-top: 5px;
+}
+
+    .card-top {
+        /* width: 35%; */
+        display: flex;
+        justify-content: space-around;
+    }
+.card1{
+    width: 40%;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:15px;
+    text-align: center;
+ 
+}
+.btn1{
+    background-color: #e4f3fa;
+   border: 2px solid #e4f3fa;
+   color: #1c90cd;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 5px;
+   border-radius: 8px;
+   padding-bottom: 5px;
+}
+.div-viewall{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.btn-viewall{
+    background-color:#2094cf ;
+    border:1px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    color: white;
+}
+.card-recieved {
+    min-height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vl {
+    border-left: 1.5px solid white;
+
+    height: 100px;
+  }
+  .card-amount{
+      color: white;
+  }
+  .cardone {
+      color: white;
+    /* justify-content: space-around; */
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    min-height: 25vh;
+    justify-content: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 3%;
+    background-color: #fdfdff;
+  }
+  td{
+    border: 1px solid #dddddd;
+    color: #767680;
+  }
+  th{
+      color: #b1b2b7;
+  }
+  
+  td, th {
+  
+    text-align: left;
+    padding: 15px;
+  }
+  
+  

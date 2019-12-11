@@ -1,13 +1,20 @@
 import React from 'react'
+import {BrowserRouter , Route , Switch } from 'react-router-dom'
 import LOGIN from './Container/login/login'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Container/Homepage/Homepage'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 
 export default()=>{
   return(
     <>
-    <LOGIN/>
-             
-    </>
-
-  );
+    <BrowserRouter>
+        <Switch>
+          <Router path={"/home"} component={Home}/>
+          <Router path={"/login"} component={LOGIN}/>
+        </Switch>
+    </BrowserRouter>
+     </>
+     );
 }
