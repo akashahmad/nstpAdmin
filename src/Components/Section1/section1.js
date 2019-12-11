@@ -27,19 +27,19 @@ export default()=>{
                 <li className="cus">
                
                 <div className="image-div"> <img className="image_icon" src={Image3} alt=""/>    
-                             <a href="#" >Customers</a></div> 
+                             <a href="#" className="sidenav-customer">Customers</a></div> 
                 </li>
                 
                 <li>
                 <div className="image-div"> <img className="image_icon" src={Image4} alt=""/>    
-                             <a href="#" >Setting</a></div> 
+                             <a href="#" className="sidenav-setting">Setting</a></div> 
                 </li> 
             </ul>
             <ul class="list-unstyled components logout">
 
             <li>
             <div className="image-div"> <img className="image_icon" src={Image5} alt=""/>    
-                             <a href="#" >Log Out</a></div> 
+                             <a href="#" className="sidenav-setting">Log Out</a></div> 
                 </li>
             </ul>
             <Style/>

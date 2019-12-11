@@ -146,10 +146,8 @@ ul.list-unstyled.components.logout{
     height: 30px;
     margin-top: 21px;
 }
-.image_icon-logoutP
-{
-
-
+.sidenav-customer{
+margin-left:-7px;
 }
 `}</style>
 

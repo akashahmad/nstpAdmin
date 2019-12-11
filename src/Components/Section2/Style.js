@@ -39,7 +39,8 @@ a.nav-link {
 }
 .dashboard-content-homepage {
     width: 100%;
-    background-color: #2094cf;
+    background-image: linear-gradient(to top, #1483bc, #29a1df);
+    // background-color: #2094cf;
     // min-height: 48vh;
     transition: all 0.3s;
     border-bottom-left-radius: 40px;
@@ -88,7 +89,7 @@ a.nav-link {
   /* Style the counter cards */
   
   .card-data {
-    
+    opacity: 85%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding:0px;
     text-align: center;
@@ -96,7 +97,7 @@ a.nav-link {
     border:1px solid white;
     min-height: 25vh;
     max-height: 40vh;
-    border-radius: 10PX;
+    border-radius: 6px;
   }
  
 .card-heading{
@@ -107,7 +108,13 @@ a.nav-link {
         display: flex;
         justify-content: space-around;
     }
-
+    .card-heading h3{
+        font-size: 20px;
+        margin-top: 6px;
+    }
+.card-amount-box1{
+    font-size:36px;
+}
 .btn1{
     background-color: #e4f3fa;
    border: 2px solid #e4f3fa;
@@ -169,7 +176,7 @@ a.nav-link {
     margin-right: 66px;
 }
 .link_button {
-    margin-left: 43px;
+    margin-left: 24px;
    margin-top: 56px;
    opacity: 86%;
 }

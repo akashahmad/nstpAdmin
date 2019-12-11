@@ -52,14 +52,14 @@ export default()=>{
   <div class="dashboard-column-cards-one">
     <div class="card-data"> 
       <div className="cardone">
-          <p className="card-amount">196</p>
+          <p className="card-amount-box1">196</p>
           <h5>Total Customers</h5>
       </div>
     </div>
   </div>
   <div class="dashboard-column-cards-two">
     <div class="card-data">
-      <div className="card-heading"><h3>Dollar</h3>
+      <div className="card-heading"><h3>USD</h3>
       <hr style={{backgroundColor:"white"}}/>
       </div>
       <div className="card-recieved">
@@ -73,7 +73,7 @@ export default()=>{
 
   <div class="dashboard-column-cards-three">
     <div class="card-data">
-    <div className="card-heading"><h3>Pakistani</h3>
+    <div className="card-heading"><h3>PKR</h3>
     <hr style={{backgroundColor:"white"}}/>
     </div>
     <div className="card-recieved"> <div><p className="card-amount">10,000.00</p>
@@ -86,7 +86,7 @@ export default()=>{
   
   <div class="dashboard-column-cards-four">
     <div class="card-data">
-    <div className="card-heading"><h3>Afghani</h3>
+    <div className="card-heading"><h3>AFGHANI</h3>
     <hr style={{backgroundColor:"white"}}/>
     </div>
     <div className="card-recieved"> <div><p className="card-amount">10,000.00</p>
@@ -105,10 +105,10 @@ export default()=>{
                                 <a class="nav-link" href="#"><div id="google_translate_element"></div></a>
                             </li> */}
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Doller</a>
+                                <a class="nav-link" href="#">Pakistani</a>
                             </li>
                             <li class="nav-item navbar-bottom-data">
-                                <a class="nav-link" href="#">Pakistani</a>
+                                <a class="nav-link" href="#">Doller</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Afghani</a>
