@@ -40,7 +40,7 @@ a.nav-link {
     padding-left:15px;
 }
 .person-image-navbar{
-    height:25px;
+    height:33px;
 }
 .dashboard-content-homepage {
     width: 100%;
@@ -135,7 +135,7 @@ a.nav-link {
 .div-viewall{
     display: flex;
     justify-content: flex-end;
-    margin-right: 5%;
+    margin-right: 4%;
     margin-top:39px;
 }
 .btn-viewall{
@@ -184,6 +184,19 @@ a.nav-link {
 .navbar-button-section2{
     padding:0;
 }
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
+    background: white;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+} 
 
 
 `}</style>

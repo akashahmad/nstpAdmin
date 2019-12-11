@@ -67,17 +67,20 @@ return(
 }
 
 #sidebar ul li a {
+    
+    opacity:55%;
     padding: 25px;
     font-size:18px;
     display: block;
-    color: #1e93ce;
+    color: rgba(51, 51, 51, 0.55);
   
 }
 
 #sidebar ul li a:hover {
-    // color: #7386D5;
+     color: #1e93ce;
     // background: #fff;
     text-decoration:none;
+   
 }
 
 #sidebar ul li.active>a,
@@ -135,12 +138,14 @@ ul.list-unstyled.components.logout{
     justify-content: flex-end;
   }
   .image-div {
-    margin-left: 56px;
+    margin-left: 1%;
+    border-left:3px solid transparent;
+    padding-left: 50px;
     display: flex;
     // justify-content: safe;
 }
-.image-div :hover{
-    color: #1e92ce;
+.image-div:hover {
+    border-left-color: #1e93ce;
 }
 .image_icon{
     height: 30px;

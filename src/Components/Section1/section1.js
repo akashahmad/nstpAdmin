@@ -3,7 +3,7 @@ import Style from './Style'
 import Image from '../../assects/images/dashboard.png'
 import Image3 from '../../assects/images/customer.png'
 import Image4 from '../../assects/images/setting.png'
-import Image5 from '../../assects/images/2019-12-10.png'
+import Image5 from '../../assects/images/logout1.png'
 
 export default()=>{
     return(

@@ -21,6 +21,10 @@ table {
     border:0.5px solid #e8e8e8;
     opacity:85%;
   }
+  // .section3-table-rows:hover {
+  //   transform: scale(1.02);
+  //   // box-shadow: 0px 0px 150px #000000;
+  // }
   td{
     border: none;
     color: #767680;

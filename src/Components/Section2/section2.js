@@ -2,7 +2,7 @@ import React from 'react'
 import Style from './Style'
 import Section3 from '../Section3/section3'
 import Image1 from '../../assects/images/s.png'
-import Image2 from '../../assects/images/person.png'
+import Image2 from '../../assects/images/profile.png'
 
 export default()=>{
     return(
@@ -99,13 +99,13 @@ export default()=>{
 </div>
 <nav class="navbar navbar-expand-lg navbar-button-section2">
                 <div class="container-fluid navbar-bottom">
-                <div class="link_button" >
-                        <ul class="nav navbar-nav ml-auto">
+                <div class="link_button " >
+                        <ul class="nav navbar-nav ml-auto ">
                             {/* <li class="nav-item active">
                                 <a class="nav-link" href="#"><div id="google_translate_element"></div></a>
                             </li> */}
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pakistani</a>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="#">Pakistani</a>
                             </li>
                             <li class="nav-item navbar-bottom-data">
                                 <a class="nav-link" href="#">Doller</a>

@@ -3,7 +3,7 @@ import Style from './Style'
 export default()=>{
     return(
 
-<>
+<div className="container-fluid section3-table">
 <table >
   <tr className="section3-table-head">
     <th>Name</th>
@@ -69,7 +69,7 @@ export default()=>{
   </tr>
 </table>
 <Style/>
-</>
+</div>
 
 
         
