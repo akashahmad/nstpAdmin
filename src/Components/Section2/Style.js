@@ -3,8 +3,11 @@ import React from 'react'
 export default ()=>{
 return(
 <style js="true">{`
+
+
 .Header-section2
 {
+    padding:0;
     background-color: #f8f9fd;
 
 }
@@ -21,12 +24,14 @@ return(
 }
 a.nav-link {
     color: white;
+    opacity:70%;
 }
 .vertical-line-inside-navbar{
     border-left: 1.5px solid white;
     height: 28px;
     margin-top: 9px;
     padding-left: 6px;
+    opacity:50%;
 }
 .image-search{
     padding-right: 15px;
@@ -118,13 +123,12 @@ a.nav-link {
 .btn1{
     background-color: #e4f3fa;
    border: 2px solid #e4f3fa;
-   color: #1c90cd;
-   padding-left: 15px;
-   padding-right: 15px;
-   padding-top: 5px;
-   border-radius: 8px;
-   padding-bottom: 5px;
+   color: #1e91cc;
+   padding: 8px 35px 8px 35px;
+   border-radius: 6px;
    margin-left: 20px;
+   background-color:#ffffff;
+   font-size: 17px;
 
 }
 
@@ -137,14 +141,11 @@ a.nav-link {
 .btn-viewall{
     background-color:#2094cf ;
     border:1px solid white;
-    padding-left: 30px;
-    padding-right: 30px;
-    // padding-top: 5px;
-    border-radius: 8px;
-    padding-bottom: 5px;
-    color: white;
+    padding: 8px 40px 8px 40px;
+    border-radius:6px;
+    color:  #e8e8e8;
     opacity: 85%;
-    
+    font-size: 17px;
 }
 .card-recieved {
     min-height: 15vh;

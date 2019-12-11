@@ -9,18 +9,18 @@ export default()=>{
 <>
 
 <div className="container-fluid Header-section2">
-        <div className="dashboard-content-homepage">
+        <div className="container-fluid dashboard-content-homepage">
 
             <nav class="navbar-section2-dashboard navbar-expand-lg ">
                 <div class="container-fluid navbar-top">
-
+                <div className="button-div-white">
                     <button type="button" id="sidebarCollapse" className="btntoggle btn1">
                         Add Customer
                         {/* <span>Toggle Sidebar</span> */}
-                    </button>
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    </button></div>
+                    {/* <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
-                    </button>
+                    </button> */}
 
                     <div className="navbar-top-list">
                         <ul class="navbar-topnav-list navbar-nav ml-auto">
@@ -36,7 +36,7 @@ export default()=>{
                             </li>
                             <div class="vertical-line-inside-navbar"></div>
                             <li class="nav-item text-navbar-search">
-                                <a class="nav-link" href="#">Ahmed Wali</a>
+                                <a class="nav-link " href="#">Ahmed Wali</a>
                             </li>
                             <li class="nav-item text-navbar-search">
                             <a class="nav-link " href="#">

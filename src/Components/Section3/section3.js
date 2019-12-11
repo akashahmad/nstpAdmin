@@ -13,7 +13,7 @@ export default()=>{
     <th>Amt Recieved</th>
     <th>Total</th>
   </tr>
-  <tr>
+  <tr className="section3-table-rows">
     <td>JOHN DOE</td>
     <td>DEC 12,2019</td>
     <td>66,000.00</td>
@@ -22,7 +22,7 @@ export default()=>{
     <td>90,000.00</td>
 
   </tr>
-  <tr>
+  <tr className="section3-table-rows">
   <td>JOHN DOE</td>
     <td>DEC 12,2019</td>
     <td>66,000.00</td>
@@ -31,7 +31,7 @@ export default()=>{
     <td>90,000.00</td>
 
   </tr>
-  <tr>
+  <tr className="section3-table-rows">
   <td>JOHN DOE</td>
     <td>DEC 12,2019</td>
     <td>66,000.00</td>
@@ -40,7 +40,7 @@ export default()=>{
     <td>90,000.00</td>
 
   </tr>
-  <tr>
+  <tr className="section3-table-rows">
   <td>JOHN DOE</td>
     <td>DEC 12,2019</td>
     <td>66,000.00</td>
@@ -49,7 +49,7 @@ export default()=>{
     <td>90,000.00</td>
 
   </tr>
-  <tr>
+  <tr className="section3-table-rows">
   <td>JOHN DOE</td>
     <td>DEC 12,2019</td>
     <td>66,000.00</td>
@@ -58,7 +58,7 @@ export default()=>{
     <td>90,000.00</td>
 
   </tr>
-  <tr>
+  <tr className="section3-table-rows">
   <td>JOHN DOE</td>
     <td>DEC 12,2019</td>
     <td>66,000.00</td>

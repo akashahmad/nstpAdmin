@@ -145,6 +145,7 @@ ul.list-unstyled.components.logout{
 .image_icon{
     height: 30px;
     margin-top: 21px;
+    opacity:0.32;
 }
 .sidenav-customer{
 margin-left:-7px;

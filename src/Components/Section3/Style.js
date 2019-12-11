@@ -14,11 +14,17 @@ table {
     border-collapse: collapse;
     width: 94%;
     margin-left: 3%;
+    margin-top:1%;
     background-color: #fdfdff;
   }
+  .section3-table-rows{
+    border:0.5px solid #e8e8e8;
+    opacity:85%;
+  }
   td{
-    border: 1px solid #dddddd;
+    border: none;
     color: #767680;
+    font-size:16px;
   }
   th{
       color: #b1b2b7;
