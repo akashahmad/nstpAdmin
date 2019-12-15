@@ -13,11 +13,11 @@ export default()=>{
 
             <nav class="navbar-section2-dashboard navbar-expand-lg ">
                 <div class="container-fluid navbar-top">
-                <div className="button-div-white">
+                {/* <div className="button-div-white">
                     <button type="button" className=" btn1">
                         Add Customer
                         {/* <span>Toggle Sidebar</span> */}
-                    </button></div>
+                    {/* </button></div> */} 
                     {/* <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button> */}

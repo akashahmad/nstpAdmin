@@ -91,7 +91,7 @@ ul.navbar-topnav-list.navbar-nav.ml-auto {
     margin-top: 18px;
     padding-right: 4%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 a.nav-link {
     color: white;
@@ -151,7 +151,7 @@ a.nav-link {
   display:flex;
   justify-content:space-around;
   color: #d0e2ee;
-  margin-top: 66px;
+  margin-top: 40px;
   }
   
   /* Clear floats after the columns */
@@ -166,7 +166,7 @@ a.nav-link {
   /* Style the counter cards */
   
   .card-data {
-    opacity: 85%;
+    // opacity: 85%;
     padding:0px;
     text-align: center;
     background-color:#2094cf ;
@@ -235,13 +235,16 @@ a.nav-link {
       font-size:18px;
   }
   .cardone {
-      color: white;
+      color: rgba(255, 255, 255, 0.71);
     /* justify-content: space-around; */
     display: flex;
     /* justify-content: space-around; */
     flex-direction: column;
     min-height: 25vh;
     justify-content: center;
+}
+.navbar-bottom{
+    padding-top:10px;
 }
 .navbar-bottom-data{
     margin-left: 66px;
@@ -268,6 +271,10 @@ a.nav-link {
 //     width: 100%;
 //     //transition: width .3s;
 // } 
+
+.button-div-white {
+    padding-top: 20px;
+}
 .navbottom-customer {
     padding-left: 60px;
     color: #ffffff;
