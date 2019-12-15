@@ -3,13 +3,18 @@ import React from 'react'
 export default()=>{
 return(
 <style js="true"> {`
+
+
 .section3-table-head{
   background-color: #f8f9fd;
 
 }
+.section3-table{
+  margin-bottom:3%;
+}
 table {
   background-color: #f8f9fd;
-
+    
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 94%;
@@ -27,7 +32,7 @@ table {
   // }
   td{
     border: none;
-    color: #767680;
+    color: #111731;
     font-size:16px;
   }
   th{

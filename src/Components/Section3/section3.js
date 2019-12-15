@@ -1,10 +1,12 @@
-import React from 'react'
+import React ,{useState,useEffect} from 'react'
 import Style from './Style'
+import axios from 'axios'
 export default()=>{
+ 
     return(
 
-<div className="container-fluid section3-table">
-<table >
+<div className="container-fluid section3-table" >
+<table>
   <tr className="section3-table-head">
     <th>Name</th>
     <th>Sent Date</th>
@@ -13,6 +15,7 @@ export default()=>{
     <th>Amt Recieved</th>
     <th>Total</th>
   </tr>
+ 
   <tr className="section3-table-rows">
     <td>JOHN DOE</td>
     <td>DEC 12,2019</td>
